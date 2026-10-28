@@ -1,0 +1,26 @@
+# Portfolio excerpts only. These patterns are a second line of defense, not a substitute for review.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*credentials*.json
+*service-account*.json
+secrets/
+private/
+*.db
+*.sqlite*
+*.log
+logs/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+dist/
+build/
+uploads/
+.cache/
+.DS_Store
